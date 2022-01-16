@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "656826371201",
+    "firebase_url": "https://graduation-project-e5d11-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "graduation-project-e5d11",
+    "storage_bucket": "graduation-project-e5d11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656826371201:android:cb8fbcd9dd96293105d180",
+        "android_client_info": {
+          "package_name": "com.example.graduationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656826371201-d6jgb53crt8qofvpnujlot1t88glkodh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCalkU1umy5nKWZrwC_RIfLb2Yy4Fnj50U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656826371201-d6jgb53crt8qofvpnujlot1t88glkodh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656826371201:android:7d9d3fd0a48d9c6505d180",
+        "android_client_info": {
+          "package_name": "com.iceka.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656826371201-9bo00jabh2le6kssiv2reevunbb7edo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iceka.whatsappclone",
+            "certificate_hash": "9bfa047783457c145ed8f3531e2b55fb7dcb65b6"
+          }
+        },
+        {
+          "client_id": "656826371201-d6jgb53crt8qofvpnujlot1t88glkodh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdr7IGP2S04uIQDT_Frz9aehBTYt8rO4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656826371201-d6jgb53crt8qofvpnujlot1t88glkodh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

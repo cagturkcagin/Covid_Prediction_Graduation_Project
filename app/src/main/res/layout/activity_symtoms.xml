@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SymtomsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#1566e6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please select your symptoms."
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="17dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="Symptoms"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:text="Severe"
+                    android:layout_marginLeft="75dp"/>
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="70dp"
+                    android:text="Moderate"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="Low"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="21dp"
+                        android:text="Abdominal Pain"/>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="20dp"
+                            android:text="Anorexia"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_1"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton1"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="21dp"
+                            android:text="Bluish Face and Lips"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_2"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="30dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton4"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="21dp"
+                            android:text="Body Aches"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_3"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="30dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton7"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton8"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton9"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="40dp"
+                            android:text="Chest Pain / Chest Tightness"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_4"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton10"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton11"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton12"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="35dp"
+                            android:text="Chills with Repeated Shaking"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_5"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="30dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton13"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton14"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton15"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="Confusion / Unresponsiveness"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_6"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton16"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton17"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton18"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Delirium"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_7"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton19"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton20"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton21"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Diarrhea"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_8"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton22"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton23"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton24"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Dizziness"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_9"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton25"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton26"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton27"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Fatigue or Weakness"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_10"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton28"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton29"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton30"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Fever"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_11"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton31"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton32"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton33"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="General Feeling of Being Unwell"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_12"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton34"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton35"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton36"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Headache"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_13"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton37"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton38"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton39"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="Hoarse Voice (Hoarseness)"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_14"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton40"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton41"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton42"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="Loss of Taste and Smell (Anosmia)"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_15"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton43"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton44"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton45"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Muscle Pain"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_16"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton46"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton47"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton48"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="Nasal Discharge / Runny Nose"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_17"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton49"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton50"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton51"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Nasal Stuffiness"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_18"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton52"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton53"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton54"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Nausea"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_19"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton55"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton56"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton57"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Ocular Reaction (Eye Inflammation and Red Eye)"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_20"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="30dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton58"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton59"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton60"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Persistent Cough"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_21"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton61"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton62"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton63"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:text="Rhinorrhea (Cerebrospinal Fluid from the Nose)"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_22"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="30dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton64"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton65"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton66"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="Shortness of Breath / Dyspnea / Dyspnoea"/>
+
+
+                        <RadioGroup
+                            android:id="@+id/group_23"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton67"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton68"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton69"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Skin Rash"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_24"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton70"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton71"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton72"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="35dp"
+                            android:text="Skipped Meals / Loss of Appetite (Inappetence)"/>
+
+
+                        <RadioGroup
+                            android:id="@+id/group_25"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton73"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton74"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton75"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Sneeze "/>
+
+                        <RadioGroup
+                            android:id="@+id/group_26"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton76"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton77"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton78"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Sore Throat"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_27"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton79"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton80"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton81"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Sputum"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_28"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton82"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton83"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton84"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="430dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-20dp"
+                        android:background="@drawable/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="22dp"
+                            android:text="Vomiting"/>
+
+                        <RadioGroup
+                            android:id="@+id/group_29"
+                            android:layout_width="210dp"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginLeft="12dp">
+
+                            <RadioButton
+                                android:id="@+id/radioButton85"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton86"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="40dp"
+                                />
+                            <RadioButton
+                                android:id="@+id/radioButton87"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="30dp"/>
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/dik_1"
+                    android:layout_width="25dp"
+                    android:layout_height="1570dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginLeft="-245dp"
+                    android:background="@drawable/line_dik" />
+                <RadioGroup
+                    android:id="@+id/group_30"
+                    android:layout_width="210dp"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp">
+
+                    <RadioButton
+                        android:id="@+id/radioButton88"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        />
+                    <RadioButton
+                        android:id="@+id/radioButton89"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="40dp"
+                        />
+                    <RadioButton
+                        android:id="@+id/radioButton90"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"/>
+                </RadioGroup>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="1570dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginLeft="-160dp"
+                    android:background="@drawable/line_dik" />
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="1570dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginLeft="65dp"
+                    android:background="@drawable/line_dik" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/send_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="12.7dp"
+                android:layout_marginRight="62dp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:text="SEND"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
